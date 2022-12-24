@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage"
 import SinglePost from "./pages/SinglePost"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import "./style.scss"
 
 const LandingPage = () => {
   return (
