@@ -4,6 +4,7 @@ import User from "./../assets/Cal.jpg"
 import Edit from "./../assets/edit.png"
 import Delete from "./../assets/delete.png"
 import { Link } from 'react-router-dom'
+import Menu from '../components/Menu'
 
 export const SinglePost = () => {
   return (
@@ -50,7 +51,7 @@ export const SinglePost = () => {
       Ut auctor finibus elementum. Aliquam eu ante metus.
       </p>
       </div>
-      <div className='menu'>M</div>
+      <Menu/>
     </div>
   )
 }
