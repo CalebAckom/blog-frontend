@@ -3,6 +3,7 @@ import Register from "./pages/Register"
 import Login from "./pages/Login"
 import HomePage from "./pages/HomePage"
 import SinglePost from "./pages/SinglePost"
+import Write from "./pages/Write";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./style.scss"
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path:"/post/:id",
         element:<SinglePost/>
+      },
+      {
+        path: "/write",
+        element: <Write/>
       }
     ]
   },
